@@ -38,13 +38,13 @@ header{
 }
 
 .cabeçalho-link a{
-    color: #fff;
+    color: #4b0082;
     font-size: 12px;
 
 }
 
 .cabeçalho-link a :hover{
-color: #2ecc71;
+color: #FF00FF;
 transition: 0.3s all;
 }
 
@@ -52,8 +52,8 @@ transition: 0.3s all;
     height: 40px;
     width: 40px;
     background: transparent;
-    border: 1px solid #2ecc71;
-    color: #2ecc71;
+    border: 1px solid #FF00FF;
+    color: #EE82EE;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -63,9 +63,9 @@ transition: 0.3s all;
 }
 
 button{
-    color: #2ecc71;
+    color:#EE82EE;
     background: transparent;
-    border: solid 1px #2ecc71;
+    border: solid 1px #FF00FF;
      padding: 5px;
      border-radius: 15px;
      font-size: 12px;
@@ -73,7 +73,42 @@ button{
 }
 
 button:hover{
-background-color:#2ecc71;
-color: #fff;
+background-color:#EE82EE;
+color: #FFE4C4;
 transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px; 130px;
+}
+
+.text h3{
+    color: black;
+    font-size: 15px;
+}
+
+.text h1{
+    color: black;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #C71585;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-socias a{
+color: #8B008B;
+padding: 5px;
+margin-top: 10px;
+}
+
+.btn{
+    margin-top: 10px;
 }
